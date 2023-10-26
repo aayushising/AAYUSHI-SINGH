@@ -30,8 +30,8 @@ struct BigInteger product(struct BigInteger a , struct BigInteger b ,int sign);
 
 struct BigInteger div1(struct BigInteger a , struct BigInteger b );
 struct BigInteger divide(struct BigInteger a , struct BigInteger b , int sign , int ch);
-void div_plus(struct node *q1 ,struct node *q2 ,struct node *q3 ,int *l );
-void div_minus(struct node *q1 ,struct node *q2 ,struct node *q3 );
+void divide_plus(struct node *q1 ,struct node *q2 ,struct node *q3 ,int *l );
+void divide_minus(struct node *q1 ,struct node *q2 ,struct node *q3 );
 int comparision(struct node *h1 , struct node *h2, int d);
 
 void print(struct BigInteger c);
